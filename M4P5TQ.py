@@ -1,0 +1,76 @@
+# Tamer Quran
+# 8/3/2021
+# This program is my attempt at drawing a lollipop
+import turtle
+number_of_sides_int = int(14)
+length_int = int(50)
+wn = turtle.Screen()
+wn.bgcolor("green")
+tamer = turtle.Turtle()
+tamer.color()
+tamer.fillcolor("red")
+tamer.begin_fill()
+# This program can be improved by being compressed. It can be done by creating a loop that lowers the number of sides
+# by two and randomizing the colors.
+for i in range(number_of_sides_int):
+    tamer.forward(length_int)
+    tamer.left(360 / number_of_sides_int)
+tamer.end_fill()
+# I built this code off of M4P3TQ and played around with certain things got rid of duplicate code.
+number_of_sides_int = int(12)
+length_int = int(50)
+wn = turtle.Screen()
+tamer = turtle.Turtle()
+tamer.color()
+tamer.fillcolor("blue")
+tamer.begin_fill()
+for i in range(number_of_sides_int):
+    tamer.forward(length_int)
+    tamer.left(360 / number_of_sides_int)
+tamer.end_fill()
+number_of_sides_int = int(10)
+length_int = int(50)
+wn = turtle.Screen()
+tamer = turtle.Turtle()
+tamer.color()
+tamer.fillcolor("yellow")
+tamer.begin_fill()
+for i in range(number_of_sides_int):
+    tamer.forward(length_int)
+    tamer.left(360 / number_of_sides_int)
+tamer.end_fill()
+number_of_sides_int = int(8)
+length_int = int(50)
+wn = turtle.Screen()
+tamer = turtle.Turtle()
+tamer.color()
+tamer.fillcolor("pink")
+tamer.begin_fill()
+for i in range(number_of_sides_int):
+    tamer.forward(length_int)
+    tamer.left(360 / number_of_sides_int)
+tamer.end_fill()
+number_of_sides_int = int(6)
+length_int = int(50)
+wn = turtle.Screen()
+tamer = turtle.Turtle()
+tamer.color()
+tamer.fillcolor("red")
+tamer.begin_fill()
+for i in range(number_of_sides_int):
+    tamer.forward(length_int)
+    tamer.left(360 / number_of_sides_int)
+tamer.end_fill()
+
+number_of_sides_intb = int(2)
+wn = turtle.Screen()
+tamer = turtle.Turtle()
+tamer.fillcolor("white")
+tamer.begin_fill()
+for i in range(number_of_sides_intb):
+    tamer.forward(50)
+    tamer.right(90)
+    tamer.forward(250)
+    tamer.right(90)
+tamer.end_fill()
+wn.exitonclick()
